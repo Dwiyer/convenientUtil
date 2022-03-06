@@ -36,8 +36,8 @@ public class AutoTestMapper {
     private static List<String> FILE_NAME = new ArrayList<>();
     private static final String SUCCESS_FLG = "success";
     private static final String FAIL_FLG = "fail";
-    private static final String PATH_PATTERN = "import [a-z,A-Z,/.]+;";
-    private static final String PACK_PATTERN = "package [a-z,A-Z,/.]+;";
+    private static final String PATH_PATTERN = "import [a-z,A-Z,[0-9],/.]+;";
+    private static final String PACK_PATTERN = "package [a-z,A-Z,[0-9],/.]+;";
     private static final String IMPORT_REGEX = "import ";
     private static final String PACK_REGEX = "package ";
 
